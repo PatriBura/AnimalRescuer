@@ -4,5 +4,6 @@ public class Dog {
     double age;
     double healthCondition;
     String color;
+    double hunger;
     }
 
