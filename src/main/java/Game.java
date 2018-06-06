@@ -1,19 +1,22 @@
 public class Game {
     Rescuer rescuer;
     Dog dog;
-DogFood dogFood;
-Vet vet;
+    DogFood dogFood;
+    Vet vet;
+
+
     public void start() {
-        Dog dog1 = new Dog ();
-        dog1.name = "Linda";
-    dog1.color = "brown";
-    dog1.age = 5;
-    dog1.healthCondition = 78;
+        Dog labrador = new Dog();
+        labrador.name = "Tara";
+        labrador.healthCondition = 100;
+        labrador.hunger = 70;
+        labrador.age = 4;
+        labrador.color = "black";
 
-    Rescuer rescuer1 = new Rescuer();
-    rescuer1.name = "Sarah";
-    rescuer1.money = 120;
-
+        Rescuer rescuer1 = new Rescuer();
+        rescuer1.name = "Emily";
+        rescuer1.money = 56;
     }
 }
+
 
