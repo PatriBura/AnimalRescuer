@@ -3,11 +3,11 @@ public class Rescuer {
     double money;
 
 
-    public double feed(Dog dog, DogFood dogFood) {
-
-        System.out.println("Rescuer " + this.name + " feeds " + dog.name + " " + dogFood.name);
-        double hungerLevel = dog.hunger - dogFood.nutrition;
-        return hungerLevel;
-
-    }
+//    public double feed(Dog dog, Food food) {
+//
+//        System.out.println("Rescuer " + this.name + " feeds " + dog.name + " " + food.name);
+//        double hungerLevel = dog.hunger - food.nutrition;
+//        return hungerLevel;
+//
+//    }
 }
